@@ -24,13 +24,19 @@ jobs:
           make install
           make
 
+      - name: Check for changes
+        id: changes
+        run: |
+          echo "CHANGE_COUNT=$(git status --porcelain | wc -l)" >> $GITHUB_ENV
+
       - name: Commit files
+        if: env.CHANGE_COUNT != 0
         run: |
           EXPORT_DATE=`date '+%Y-%m-%d (%H:%M)'`
           git config --local user.email "action@github.com"
           git config --local user.name "SRE Internal"
           git add -A
-          git commit -m "chore: organisation export for $EXPORT_DATE" -a || echo "No changes to commit"
+          git commit -m "chore: organisation export for $EXPORT_DATE" -a
           git push https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git HEAD:main
 
       - name: Slack message if missing data
