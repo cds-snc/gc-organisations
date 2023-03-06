@@ -1,0 +1,49 @@
+name: Export organisation data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * *" # 04:00 UTC
+
+env:
+  SALESFORCE_USERNAME: ${{ secrets.SALESFORCE_USERNAME }}
+  SALESFORCE_CONNECTED_APP_ID: ${{ secrets.SALESFORCE_CONNECTED_APP_ID }}
+  SALESFORCE_CONNECTED_APP_CONSUMER_KEY: ${{ secrets.SALESFORCE_CONNECTED_APP_CONSUMER_KEY }}
+  SALESFORCE_CONNECTED_APP_PRIVATE_KEY: ${{ secrets.SALESFORCE_CONNECTED_APP_PRIVATE_KEY }}
+
+jobs:
+  export-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
+
+      - name: Export organisation data
+        id: export
+        run: |
+          make install
+          make
+
+      - name: Commit files
+        run: |
+          EXPORT_DATE=`date '+%Y-%m-%d (%H:%M)'`
+          git config --local user.email "action@github.com"
+          git config --local user.name "SRE Internal"
+          git add -A
+          git commit -m "chore: organisation export for $EXPORT_DATE" -a || echo "No changes to commit"
+          git push https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git HEAD:main
+
+      - name: Slack message if missing data
+        if: contains(steps.export.outputs.stdout, 'Missing org data')
+        run: |
+          json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":warning: Missing organisation data: <https://github.com/cds-snc/gc-organisations/actions/workflows/export.yml|Export organisation data>"}}]}'
+          curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.EXPORT_SLACK_WEBHOOK }}
+
+      - name: Slack message on failure
+        if: failure()
+        run: |
+          json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":red: Failed to export organisations: <https://github.com/cds-snc/gc-organisations/actions/workflows/export.yml|Export organisation data>"}}]}'
+          curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.EXPORT_SLACK_WEBHOOK }}
+
+
+      
