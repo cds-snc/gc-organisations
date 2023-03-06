@@ -18,11 +18,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
 
+      - name: Install dependencies
+        run: |
+          make install
+
       - name: Export organisation data
         id: export
         run: |
-          make install
-          make
+          EXPORT_OUTPUT="$(make)"
+          echo "$EXPORT_OUTPUT"
+          if [[ "$EXPORT_OUTPUT" == *"Missing org data"* ]]; then
+            echo "MISSING_DATA=true" >> $GITHUB_ENV
+          fi
 
       - name: Check for changes
         id: changes
@@ -40,7 +47,7 @@ jobs:
           git push https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git HEAD:main
 
       - name: Slack message if missing data
-        if: contains(steps.export.outputs.stdout, 'Missing org data')
+        if: env.MISSING_DATA == 'true'
         run: |
           json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":warning: Missing organisation data: <https://github.com/cds-snc/gc-organisations/actions/workflows/export.yml|Export organisation data>"}}]}'
           curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.EXPORT_SLACK_WEBHOOK }}
@@ -50,6 +57,3 @@ jobs:
         run: |
           json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":red: Failed to export organisations: <https://github.com/cds-snc/gc-organisations/actions/workflows/export.yml|Export organisation data>"}}]}'
           curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.EXPORT_SLACK_WEBHOOK }}
-
-
-      
