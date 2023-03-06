@@ -1,0 +1,3 @@
+cryptography==39.0.1
+python-dotenv==0.21.1
+simple_salesforce==1.12.3

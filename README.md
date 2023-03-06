@@ -1,10 +1,15 @@
-# Generic Project Template
+# GC Organisations
+A nightly exported list of Government of Canada departments, agencies, crown corporations and provincial governments.
 
-This repository provides some base files for setting up a repository at
-CDS. Plan is to create more project template for specific technologies:
+## CSV
+- [data/all.csv](./data/all.csv): English name, French names and type
+- [data/all-name-eng.csv](./data/all-name-eng.csv): English name
+- [data/all-name-fra.csv](./data/all-name-fra.csv): French name
 
-- project-template-terraform
-- project-template-python
-- project-template-nodejs
+## JSON
+- [data/all.json](./data/all.json): English name, French names, and type
+- [data/all-name-eng.json](./data/all-name-eng.json): English name
+- [data/all-name-fra.json](./data/all-name-fra.json): French name
 
-Note that default community health files are maintained at https://github.com/cds-snc/.github 
+## Setup
+Copy `.env.example` to `.env`, add values and run `make`.
