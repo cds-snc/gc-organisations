@@ -25,11 +25,13 @@ def test_get_organisations(mock_query):
     mock_session = MagicMock()
     mock_session.bulk.Account.query.return_value = [
         {
+            "Id": "1",
             "Name": "hello",
             "CDS_AccountNameFrench__c": "salut",
             "Type": "greeting",
         },
         {
+            "Id": "2",
             "Name": "farewell",
             "CDS_AccountNameFrench__c": "bon soir",
             "Type": "goodbye",
@@ -37,11 +39,13 @@ def test_get_organisations(mock_query):
     ]
     assert organisations.get_organisations(mock_session) == [
         {
+            "id": "1",
             "name_eng": "hello",
             "name_fra": "salut",
             "type": "greeting",
         },
         {
+            "id": "2",
             "name_eng": "farewell",
             "name_fra": "bon soir",
             "type": "goodbye",

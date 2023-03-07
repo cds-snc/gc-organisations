@@ -9,11 +9,13 @@ def test_export(mock_export_json, mock_export_csv):
     export.export(
         [
             {
+                "id": "1",
                 "name_eng": "org1",
                 "name_fra": "org4",
                 "type": "org",
             },
             {
+                "id": "2",
                 "name_eng": "org2",
                 "name_fra": "org3",
                 "type": "org",
@@ -26,16 +28,19 @@ def test_export(mock_export_json, mock_export_csv):
                 "data/all.csv",
                 [
                     {
+                        "id": "ID",
                         "name_eng": "English/Anglais",
                         "name_fra": "French/Français",
                         "type": "Type",
                     },
                     {
+                        "id": "1",
                         "name_eng": "org1",
                         "name_fra": "org4",
                         "type": "org",
                     },
                     {
+                        "id": "2",
                         "name_eng": "org2",
                         "name_fra": "org3",
                         "type": "org",
@@ -67,11 +72,13 @@ def test_export(mock_export_json, mock_export_csv):
                 "data/all.json",
                 [
                     {
+                        "id": "1",
                         "name_eng": "org1",
                         "name_fra": "org4",
                         "type": "org",
                     },
                     {
+                        "id": "2",
                         "name_eng": "org2",
                         "name_fra": "org3",
                         "type": "org",

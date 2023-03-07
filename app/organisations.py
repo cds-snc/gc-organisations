@@ -35,6 +35,7 @@ def get_organisations(session, filter_type=None, order_by="Name"):
     orgs_query = get_query(filter_type, order_by)
     results = session.bulk.Account.query(orgs_query)
     for result in results:
+        dept_id = result.get("Id")
         name_eng = result.get("Name")
         name_fra = result.get("CDS_AccountNameFrench__c")
         org_type = result.get("Type")
@@ -43,6 +44,7 @@ def get_organisations(session, filter_type=None, order_by="Name"):
         if name_eng and name_fra and org_type:
             orgs.append(
                 {
+                    "id": dept_id,
                     "name_eng": name_eng,
                     "name_fra": name_fra,
                     "type": org_type,
