@@ -1,5 +1,5 @@
 # GC Organisations
-A nightly exported list of Government of Canada departments, agencies, crown corporations and provincial governments.
+An exported list of Government of Canada departments, agencies, crown corporations and provincial governments.
 
 ## CSV
 - [data/all.csv](./data/all.csv): English name, French names and type
