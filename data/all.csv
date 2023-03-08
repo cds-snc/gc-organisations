@@ -44,11 +44,10 @@ ID,English/Anglais,French/Français,Type
 001I900000503nDIAQ,Export Development Canada,Exportation et développement Canada,Crown Corp
 001I900000505P7IAI,Farm Credit Canada,Financement agricole Canada,Crown Corp
 001I90000050b0nIAA,Federal Economic Development Agency for Southern Ontario,Agence fédérale de développement économique pour le Sud de l'Ontario,GC Department
-001I9000004Vt5qIAC,Federal Economic Development Agency for Southern Ontario (FedDev Ontario),Agence fédérale de développement économique pour le Sud de l'Ontario (FedDev Ontario),GC Department
 001I900000503tyIAA,Financial Consumer Agency of Canada,Agence de la consommation en matière financière du Canada,GC Department
 001I9000004Vt5rIAC,Financial Transactions and Reports Analysis Centre of Canada,Centre d'analyse des opérations et déclarations financières du Canada,GC Department
 001I9000004Vt5sIAC,Fisheries and Oceans Canada,Pêches et Océans Canada,GC Department
-001I9000004Vt5tIAC,Global Affairs Canada,Affaires mondiale Canada,GC Department
+001I9000004Vt5tIAC,Global Affairs Canada,Affaires mondiales Canada,GC Department
 001I9000004VrQNIA0,Government of Alberta,Gouvernement de l'alberta,PTM
 001I9000004cImXIAU,Government of British Columbia,Gouvernement de la Colombie-Britannique,PTM
 001I90000050e4sIAA,Government of Manitoba,Gouvernement du Manitoba,PTM
@@ -79,7 +78,7 @@ ID,English/Anglais,French/Français,Type
 001I900000503tVIAQ,Office of the Chief Electoral Officer,Bureau du directeur général des élections,GC Department
 001I9000004Vt65IAC,Office of the Commissioner of Lobbying of Canada,Commissariat au lobbying du Canada,GC Department
 001I9000004Vt66IAC,Office of the Commissioner of Official Languages,Commissariat aux langues officielles,GC Department
-001I900000504b0IAA,Offices of the Information and Privacy Commissioners of Canada,Les Commissariats à  l'information et à la protection de la vie privée du Canada,GC Department
+001I900000504b0IAA,Offices of the Information and Privacy Commissioners of Canada,Les Commissariats à l’information et à la protection de la vie privée du Canada,GC Department
 001I90000050ZenIAE,Pacific Economic Development Canada,Développement économique Canada pour le Pacifique,GC Department
 001I90000050XWsIAM,Pacific Pilotage Authority Canada,Administration de pilotage du Pacifique Canada,Crown Corp
 001I9000004Vt67IAC,Parks Canada,Parcs Canada,GC Department
@@ -90,7 +89,7 @@ ID,English/Anglais,French/Français,Type
 001I9000004Vt6BIAS,Public Prosecution Service of Canada,Service des poursuites pénales du Canada,GC Department
 001I9000004Vt6CIAS,Public Safety Canada,Sécurité publique Canada,GC Department
 001I9000004Vt6DIAS,Public Service Commission of Canada,Commission de la fonction publique du Canada,GC Department
-001I9000004Vt6EIAS,Public Services and Procurement Canada,Services publics et de l'Approvisionnement,GC Department
+001I9000004Vt6EIAS,Public Services and Procurement Canada,Services publics et Approvisionnement Canada,GC Department
 001I9000004Vt6FIAS,Royal Canadian Mint,Monnaie royale canadienne,GC Department
 001I9000004Vt6GIAS,Royal Canadian Mounted Police,Gendarmerie royale du Canada,GC Department
 001I90000050aMNIAY,Service Canada,Service Canada,GC Department
