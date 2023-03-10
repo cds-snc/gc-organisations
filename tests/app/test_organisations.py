@@ -96,17 +96,17 @@ def test_get_organisations_warning(mock_query, mock_print):
 def test_get_query():
     assert (
         organisations.get_query()
-        == "SELECT Id, Name, CDS_AccountNameFrench__c, Type FROM Account WHERE CDS_Verified__c = TRUE ORDER BY Name"
+        == "SELECT Id, Name, CDS_AccountNameFrench__c, Type FROM Account WHERE CDS_Department_list_export__c = TRUE ORDER BY Name"
     )
     assert (
         organisations.get_query(filter_type="foo")
-        == "SELECT Id, Name, CDS_AccountNameFrench__c, Type FROM Account WHERE CDS_Verified__c = TRUE AND Type = 'foo' ORDER BY Name"
+        == "SELECT Id, Name, CDS_AccountNameFrench__c, Type FROM Account WHERE CDS_Department_list_export__c = TRUE AND Type = 'foo' ORDER BY Name"
     )
     assert (
         organisations.get_query(order_by="bar")
-        == "SELECT Id, Name, CDS_AccountNameFrench__c, Type FROM Account WHERE CDS_Verified__c = TRUE ORDER BY bar"
+        == "SELECT Id, Name, CDS_AccountNameFrench__c, Type FROM Account WHERE CDS_Department_list_export__c = TRUE ORDER BY bar"
     )
     assert (
         organisations.get_query(order_by="bam", filter_type="baz")
-        == "SELECT Id, Name, CDS_AccountNameFrench__c, Type FROM Account WHERE CDS_Verified__c = TRUE AND Type = 'baz' ORDER BY bam"
+        == "SELECT Id, Name, CDS_AccountNameFrench__c, Type FROM Account WHERE CDS_Department_list_export__c = TRUE AND Type = 'baz' ORDER BY bam"
     )

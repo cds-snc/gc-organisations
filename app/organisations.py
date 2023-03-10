@@ -59,10 +59,10 @@ def get_organisations(session, filter_type=None, order_by="Name"):
 
 def get_query(filter_type=None, order_by="Name"):
     "Get the query used to retrieve the list of GC organisations"
-    where_filter_type = f" AND Type = '{filter_type}'" if filter_type else ""
+    where_filter_type = f"AND Type = '{filter_type}' " if filter_type else ""
     return (
         f"SELECT Id, Name, CDS_AccountNameFrench__c, Type FROM Account "
-        f"WHERE CDS_Verified__c = TRUE"
+        f"WHERE CDS_Department_list_export__c = TRUE "
         f"{where_filter_type}"
-        f" ORDER BY {order_by}"
+        f"ORDER BY {order_by}"
     )
