@@ -3,7 +3,7 @@ name: Export organisation data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 4 * * 0" # 04:00 UTC on Sunday
+    - cron: "0 4 * * 1" # 04:00 UTC on Monday
 
 env:
   SALESFORCE_USERNAME: ${{ secrets.SALESFORCE_USERNAME }}
