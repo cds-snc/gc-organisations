@@ -8,6 +8,7 @@ ID,English/Anglais,French/Français,Type
 001I9000004Vt5XIAS,Canada Border Services Agency,Agence des services frontaliers du Canada,GC Department
 001I9000004Vt5YIAS,Canada Economic Development for Quebec Regions,Développement économique Canada pour les régions du Québec,GC Department
 001I90000050b1vIAA,Canada Employment Insurance Commission,Commission de l’assurance-emploi du Canada,GC Department
+001I9000005tFjAIAU,Canada Energy Regulator,Régie de l'énergie du Canada,GC Department
 001I9000005063XIAQ,Canada Mortgage and Housing Corporation,Société canadienne d'hypothèques et de logement,Crown Corp
 001I900000505hvIAA,Canada Post,Postes Canada,Crown Corp
 001I9000004Vt5ZIAS,Canada Revenue Agency,Agence du revenu du Canada,GC Department
@@ -52,7 +53,7 @@ ID,English/Anglais,French/Français,Type
 001I9000004Vt5sIAC,Fisheries and Oceans Canada,Pêches et Océans Canada,GC Department
 001I9000004Vt5tIAC,Global Affairs Canada,Affaires mondiales Canada,GC Department
 001I9000004VrQNIA0,Government of Alberta,Gouvernement de l'alberta,PTM
-001I9000004cImXIAU,Government of British Columbia,Gouvernement de la Colombie-Britannique,PTM
+001I9000004cImXIAU,Government of British Columbia (BC),Gouvernement de la Colombie-Britannique,PTM
 001I90000050e4sIAA,Government of Manitoba,Gouvernement du Manitoba,PTM
 001I90000050e4dIAA,Government of New Brunswick,Gouvernement du Nouveau-Brunswick,PTM
 001I90000050dxBIAQ,Government of Newfoundland and Labrador,Gouvernement de Terre-Neuve-et-Labrador,PTM
