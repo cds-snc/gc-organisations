@@ -75,9 +75,12 @@ def add_notify_organisation_ids(organisations: list[dict]) -> list[dict]:
             org_dict[row["crm_id"]] = row["org_id"]
 
     for item in organisations:
-        item["notify_organisation_id"] = org_dict[item["id"]] if item["id"] in org_dict else None
+        item["notify_organisation_id"] = (
+            org_dict[item["id"]] if item["id"] in org_dict else None
+        )
 
     return organisations
+
 
 def get_query(filter_type=None, order_by="Name"):
     "Get the query used to retrieve the list of GC organisations"
