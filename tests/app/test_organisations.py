@@ -5,18 +5,20 @@ from app import organisations
 
 @patch("app.organisations.Salesforce", return_value="sf")
 @patch("app.organisations.SALESFORCE_CONNECTED_APP_ID", "app_id")
-@patch("app.organisations.SALESFORCE_CONNECTED_APP_CONSUMER_KEY", "app_key")
-@patch("app.organisations.SALESFORCE_CONNECTED_APP_PRIVATE_KEY", "cHJpdmF0ZWtleQo=")
-@patch("app.organisations.SALESFORCE_DOMAIN", "domain")
 @patch("app.organisations.SALESFORCE_USERNAME", "username")
-def test_get_session(mock_get_session):
+@patch("app.organisations.SALESFORCE_PASSWORD", "password")
+@patch("app.organisations.SALESFORCE_SECURITY_TOKEN", "token")
+@patch("app.organisations.SALESFORCE_DOMAIN", "domain")
+@patch("requests.Session", return_value="session")
+def test_get_session(mock_requests_session, mock_get_session):
     assert organisations.get_session() == mock_get_session.return_value
     mock_get_session.assert_called_with(
         client_id="app_id",
         username="username",
-        consumer_key="app_key",
-        privatekey=b"privatekey\n",
+        password="password",
+        security_token="token",
         domain="domain",
+        session="session",
     )
 
 
