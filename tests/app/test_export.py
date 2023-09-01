@@ -32,6 +32,7 @@ def test_export(mock_export_json, mock_export_csv):
                         "name_eng": "English/Anglais",
                         "name_fra": "French/Français",
                         "type": "Type",
+                        "notify_organisation_id": "Notify_Organisation_ID",
                     },
                     {
                         "id": "1",
