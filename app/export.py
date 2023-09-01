@@ -17,6 +17,7 @@ def export(orgs):
         "name_eng": "English/Anglais",
         "name_fra": "French/Français",
         "type": "Type",
+        "notify_organisation_id": "Notify_Organisation_ID",
     }
     names_eng = sorted([o["name_eng"] for o in orgs])
     names_fra = sorted([o["name_fra"] for o in orgs])
