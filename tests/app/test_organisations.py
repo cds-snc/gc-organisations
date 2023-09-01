@@ -112,3 +112,55 @@ def test_get_query():
         organisations.get_query(order_by="bam", filter_type="baz")
         == "SELECT Id, Name, CDS_AccountNameFrench__c, Type FROM Account WHERE CDS_Department_list_export__c = TRUE AND Type = 'baz' ORDER BY bam"
     )
+
+
+@patch("app.organisations.get_organisations_dict")
+def test_add_notify_organisation_ids(get_organisations_dict):
+    get_organisations_dict.return_value = {
+        "crm_id_1": "notify_id_1",
+        "crm_id_2": "notify_id_2",
+    }
+    test_data = [
+        {
+            "id": "crm_id_1",
+            "name_eng": "hello",
+            "name_fra": "salut",
+            "type": "greeting",
+        },
+        {
+            "id": "crm_id_2",
+            "name_eng": "farewell",
+            "name_fra": "bon soir",
+            "type": "goodbye",
+        },
+        {
+            "id": "crm_id_3",
+            "name_eng": "abc",
+            "name_fra": "xyz",
+            "type": "123",
+        },
+    ]
+    result = organisations.add_notify_organisation_ids(test_data)
+    assert result == [
+        {
+            "id": "crm_id_1",
+            "name_eng": "hello",
+            "name_fra": "salut",
+            "type": "greeting",
+            "notify_organisation_id": "notify_id_1",
+        },
+        {
+            "id": "crm_id_2",
+            "name_eng": "farewell",
+            "name_fra": "bon soir",
+            "type": "goodbye",
+            "notify_organisation_id": "notify_id_2",
+        },
+        {
+            "id": "crm_id_3",
+            "name_eng": "abc",
+            "name_fra": "xyz",
+            "type": "123",
+            "notify_organisation_id": None,
+        },
+    ]

@@ -65,15 +65,21 @@ def get_organisations(session, filter_type=None, order_by="Name"):
     return orgs
 
 
-def add_notify_organisation_ids(organisations: list[dict]) -> list[dict]:
-    """This function adds the notify_organisation_id to the organisation data"""
-    org_dict = {}
-
+def get_organisations_dict() -> dict:
+    """This function returns a dict that maps salesforce IDs to notify
+    organisaion IDs
+    """
+    organisations_dict = {}
     with open("app/notify_organisation_ids.csv") as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            org_dict[row["crm_id"]] = row["org_id"]
+            organisations_dict[row["crm_id"]] = row["org_id"]
+    return organisations_dict
 
+
+def add_notify_organisation_ids(organisations: list[dict]) -> list[dict]:
+    """This function adds the notify_organisation_id to the organisation data"""
+    org_dict = get_organisations_dict()
     for item in organisations:
         item["notify_organisation_id"] = (
             org_dict[item["id"]] if item["id"] in org_dict else None
