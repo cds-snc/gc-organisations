@@ -3,6 +3,8 @@ Retrieve the list of GC organisations.
 """
 import base64
 import os
+import csv
+import requests
 
 from dotenv import load_dotenv
 from simple_salesforce import Salesforce
@@ -10,23 +12,29 @@ from simple_salesforce import Salesforce
 load_dotenv()
 
 SALESFORCE_CONNECTED_APP_ID = os.getenv("SALESFORCE_CONNECTED_APP_ID")
-SALESFORCE_CONNECTED_APP_CONSUMER_KEY = os.getenv(
-    "SALESFORCE_CONNECTED_APP_CONSUMER_KEY"
-)
-SALESFORCE_CONNECTED_APP_PRIVATE_KEY = os.getenv("SALESFORCE_CONNECTED_APP_PRIVATE_KEY")
-SALESFORCE_DOMAIN = os.getenv("SALESFORCE_DOMAIN")
 SALESFORCE_USERNAME = os.getenv("SALESFORCE_USERNAME")
+SALESFORCE_PASSWORD = os.getenv("SALESFORCE_PASSWORD")
+SALESFORCE_SECURITY_TOKEN = os.getenv("SALESFORCE_SECURITY_TOKEN")
+SALESFORCE_DOMAIN = os.getenv("SALESFORCE_DOMAIN")
 
 
 def get_session():
     "Get Salesforce session using JWT authentication"
-    return Salesforce(
-        client_id=SALESFORCE_CONNECTED_APP_ID,
-        username=SALESFORCE_USERNAME,
-        consumer_key=SALESFORCE_CONNECTED_APP_CONSUMER_KEY,
-        privatekey=base64.b64decode(SALESFORCE_CONNECTED_APP_PRIVATE_KEY),
-        domain=SALESFORCE_DOMAIN,
-    )
+    session = None
+    try:
+        requests_session = requests.Session()
+
+        return Salesforce(
+            client_id=SALESFORCE_CONNECTED_APP_ID,
+            username=SALESFORCE_USERNAME,
+            password=SALESFORCE_PASSWORD,
+            security_token=SALESFORCE_SECURITY_TOKEN,
+            domain=SALESFORCE_DOMAIN,
+            session=requests_session,
+        )
+    except Exception as ex:
+        print(f"SF_ERR Salesforce login failed: {ex}")
+    return session
 
 
 def get_organisations(session, filter_type=None, order_by="Name"):
@@ -55,6 +63,29 @@ def get_organisations(session, filter_type=None, order_by="Name"):
                 f"::warning file=app/organisations.py,::Missing org data '{name_eng}', '{name_fra}', '{org_type}'"
             )
     return orgs
+
+
+def get_organisations_dict() -> dict:
+    """This function returns a dict that maps salesforce IDs to notify
+    organisaion IDs
+    """
+    organisations_dict = {}
+    with open("app/notify_organisation_ids.csv") as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            organisations_dict[row["crm_id"]] = row["org_id"]
+    return organisations_dict
+
+
+def add_notify_organisation_ids(organisations: list[dict]) -> list[dict]:
+    """This function adds the notify_organisation_id to the organisation data"""
+    org_dict = get_organisations_dict()
+    for item in organisations:
+        item["notify_organisation_id"] = (
+            org_dict[item["id"]] if item["id"] in org_dict else None
+        )
+
+    return organisations
 
 
 def get_query(filter_type=None, order_by="Name"):

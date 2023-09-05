@@ -5,18 +5,20 @@ from app import organisations
 
 @patch("app.organisations.Salesforce", return_value="sf")
 @patch("app.organisations.SALESFORCE_CONNECTED_APP_ID", "app_id")
-@patch("app.organisations.SALESFORCE_CONNECTED_APP_CONSUMER_KEY", "app_key")
-@patch("app.organisations.SALESFORCE_CONNECTED_APP_PRIVATE_KEY", "cHJpdmF0ZWtleQo=")
-@patch("app.organisations.SALESFORCE_DOMAIN", "domain")
 @patch("app.organisations.SALESFORCE_USERNAME", "username")
-def test_get_session(mock_get_session):
+@patch("app.organisations.SALESFORCE_PASSWORD", "password")
+@patch("app.organisations.SALESFORCE_SECURITY_TOKEN", "token")
+@patch("app.organisations.SALESFORCE_DOMAIN", "domain")
+@patch("requests.Session", return_value="session")
+def test_get_session(mock_requests_session, mock_get_session):
     assert organisations.get_session() == mock_get_session.return_value
     mock_get_session.assert_called_with(
         client_id="app_id",
         username="username",
-        consumer_key="app_key",
-        privatekey=b"privatekey\n",
+        password="password",
+        security_token="token",
         domain="domain",
+        session="session",
     )
 
 
@@ -110,3 +112,55 @@ def test_get_query():
         organisations.get_query(order_by="bam", filter_type="baz")
         == "SELECT Id, Name, CDS_AccountNameFrench__c, Type FROM Account WHERE CDS_Department_list_export__c = TRUE AND Type = 'baz' ORDER BY bam"
     )
+
+
+@patch("app.organisations.get_organisations_dict")
+def test_add_notify_organisation_ids(get_organisations_dict):
+    get_organisations_dict.return_value = {
+        "crm_id_1": "notify_id_1",
+        "crm_id_2": "notify_id_2",
+    }
+    test_data = [
+        {
+            "id": "crm_id_1",
+            "name_eng": "hello",
+            "name_fra": "salut",
+            "type": "greeting",
+        },
+        {
+            "id": "crm_id_2",
+            "name_eng": "farewell",
+            "name_fra": "bon soir",
+            "type": "goodbye",
+        },
+        {
+            "id": "crm_id_3",
+            "name_eng": "abc",
+            "name_fra": "xyz",
+            "type": "123",
+        },
+    ]
+    result = organisations.add_notify_organisation_ids(test_data)
+    assert result == [
+        {
+            "id": "crm_id_1",
+            "name_eng": "hello",
+            "name_fra": "salut",
+            "type": "greeting",
+            "notify_organisation_id": "notify_id_1",
+        },
+        {
+            "id": "crm_id_2",
+            "name_eng": "farewell",
+            "name_fra": "bon soir",
+            "type": "goodbye",
+            "notify_organisation_id": "notify_id_2",
+        },
+        {
+            "id": "crm_id_3",
+            "name_eng": "abc",
+            "name_fra": "xyz",
+            "type": "123",
+            "notify_organisation_id": None,
+        },
+    ]
