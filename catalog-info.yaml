@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gc-organisations
+  description: >-
+    An exported list of Government of Canada departments, agencies, crown
+    corporations and provincial governments
+  labels:
+    license: MIT
+spec:
+  type: website
+  lifecycle: experimental
+  owner: cds-snc
