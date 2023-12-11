@@ -1,4 +1,4 @@
-cryptography==41.0.6
+cryptography==41.0.7
 python-dotenv==1.0.0
 requests==2.31.0
 simple_salesforce==1.12.5
