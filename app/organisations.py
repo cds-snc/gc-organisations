@@ -1,6 +1,7 @@
 """
 Retrieve the list of GC organisations.
 """
+
 import base64
 import os
 import csv

@@ -2,6 +2,7 @@
 Retrieve a list of GC organisations, add the notify organisation ids,
 save them as a JSON file and commit back to the repo.
 """
+
 from app import export, organisations
 
 
