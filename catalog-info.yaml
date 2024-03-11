@@ -10,4 +10,4 @@ metadata:
 spec:
   type: website
   lifecycle: experimental
-  owner: cds-snc
+  owner: group:cds-snc/internal-sre
