@@ -34,6 +34,7 @@ ID,English/Anglais,French/Français,Type,Notify_Organisation_ID
 001I90000050a3fIAA,Canadian Security Intelligence Service,Service canadien du renseignement de sécurité,GC Department,
 001I9000004Vt5iIAC,Canadian Space Agency,Agence spatiale canadienne,GC Department,
 001I900000503r9IAA,Canadian Transportation Agency,Office des transports du Canada,GC Department,c5f5aee8-b508-47ad-9e77-7227f0a254a7
+001OO000006vJNYYA2,Civilian Review and Complaints Commission for the RCMP,Commission civile d’examen et de traitement des plaintes relatives à la Gendarmerie royale du Canada,GC Department,
 001I9000004zLveIAE,Communications Security Establishment Canada,Centre de la sécurité des télécommunications Canada,GC Department,1572a41d-0373-43a8-a0fe-32e7f6c44e04
 001I900000503tPIAQ,Copyright Board Canada,Commission du droit d'auteur du Canada,GC Department,
 001I900000503m9IAA,Correctional Service Canada,Service correctionnel Canada,GC Department,f8ff9966-68e3-436b-aaf1-a6b3ca924607
@@ -91,6 +92,7 @@ ID,English/Anglais,French/Français,Type,Notify_Organisation_ID
 001I9000004Vt67IAC,Parks Canada,Parcs Canada,GC Department,
 001I9000005DbCwIAK,Parliament of Canada,Parlement du Canada,GC Department,
 001I900000504ZTIAY,Parole Board of Canada,Commission des libérations conditionnelles du Canada,GC Department,
+001OO000006vSnJYAU,Patented Medicine Prices Review Board Canada,Conseil d'examen du prix des médicaments brevetés,GC Department,
 001I9000005X2mZIAS,Polar Knowledge Canada,Savoir polaire Canada,GC Department,
 001I9000004Vt68IAC,Prairies Economic Development Canada,Développement économique Canada pour les Prairies,GC Department,
 001I9000004Vt69IAC,Privy Council Office,Bureau du Conseil privé,GC Department,
