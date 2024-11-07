@@ -88,6 +88,7 @@ ID,English/Anglais,French/Français,Type,Notify_Organisation_ID
 001I9000004Vt65IAC,Office of the Commissioner of Lobbying of Canada,Commissariat au lobbying du Canada,GC Department,
 001I9000004Vt66IAC,Office of the Commissioner of Official Languages,Commissariat aux langues officielles,GC Department,
 001OO00000GgH3GYAV,Office of the Intelligence Commissioner,Bureau du commissaire au renseignement,GC Department,
+001OO00000HzMoJYAV,Office of the Public Sector Integrity Commissioner of Canada,Commissariat à l'intégrité du secteur public du Canada,GC Department,
 001OO00000AhiwAYAR,Office of the Secretary to the Governor General,Bureau du secrétaire du gouverneur général,GC Department,
 001I9000005DXSKIA4,Office of the Superintendent of Financial Institutions,Bureau du surintendant des institutions financières,GC Department,
 001OO00000Ct4gqYAB,Office of the Taxpayers' Ombudsperson,Bureau de l'ombudsman des contribuables,Other,
@@ -115,6 +116,7 @@ ID,English/Anglais,French/Français,Type,Notify_Organisation_ID
 001I90000057LCEIA2,Social Security Tribunal of Canada,Tribunal de la sécurité sociale du Canada,GC Department,
 001I90000050b2ZIAQ,Standards Council of Canada,Conseil canadien des normes,Crown Corp,
 001I9000004Vt6IIAS,Statistics Canada,Statistique Canada,GC Department,27a987ff-b754-4efc-8dfe-b79d62b622f5
+001OO00000HzZtYYAV,The Correctional Investigator Canada,L'Enquêteur correctionnel Canada,GC Department,
 001I9000005X2DjIAK,The National Battlefields Commission,Commission des champs de bataille nationaux,GC Department,
 001I90000050aLkIAI,The Office of the Procurement Ombudsman,Le Bureau de l'ombudsman de l'approvisionnement,GC Department,4029fa62-0a9f-4d7e-8c29-a8698d14ed92
 001I9000004Vt6JIAS,Transport Canada,Transports Canada,GC Department,3371f506-4f80-42df-a741-1a3c93d186fb
