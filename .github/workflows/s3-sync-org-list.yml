@@ -1,0 +1,39 @@
+name: Sync Org List to S3
+
+on:
+  push:
+    paths:
+      - 'data/all.json'
+    branches:
+      - main
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  sync-to-s3:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials using OIDC
+        uses: aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502 # v4.0.2
+        with:
+          role-to-assume: arn:aws:iam::296255494825:role/gc-organisations-apply
+          role-session-name: SyncToS3
+          aws-region: ca-central-1
+
+      - name: Sync file to S3
+        run: |
+          aws s3 cp data/all.json s3://${{ secrets.AWS_S3_NOTIFY_SYNC_ORG_LIST_BUCKET }}/all.json
+        continue-on-error: false
+
+      - name: Notify Slack channel if this job failed
+        if: ${{ failure() }}
+        run: |
+          json='{"text":"Sync Org List to S3 failed in <https://github.com/${{ github.repository }}>!"}'
+          curl -X POST -H 'Content-type: application/json' --data "$json"  ${{ secrets.SLACK_WEBHOOK_NOTIFY_DEV }}
+  
