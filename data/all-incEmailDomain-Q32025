@@ -16,38 +16,38 @@ ID,English/Anglais,French/Français,Type,Notify_Organisation_ID,Email_Domain
 001I9000005064uIAA,Canada Science and Technology Museum,Musée des sciences et de la technologie du Canada,Crown Corp,,ingeniumcanada.org
 001I90000050b2KIAQ,Canadian Air Transport Security Authority,L’Administration canadienne de la sûreté du transport aérien,Crown Corp,,catsa-acsta.gc.ca
 001I900000503ncIAA,Canadian Centre for Occupational Health and Safety,Centre canadien d'hygiène et de sécurité au travail,GC Department,,ccohs.ca
-001I9000005064zIAA,Canadian Dairy Commission,Commission canadienne du lait,Crown Corp,
-001I9000004Vt5bIAC,Canadian Food Inspection Agency,Agence canadienne d'inspection des aliments,GC Department,37a89a3a-f516-496a-95e4-edfdcfc13732
-001I9000004Vt5cIAC,Canadian Grain Commission,Commission canadienne des grains,GC Department,74e2b999-650e-453c-88b1-8f57d22c84a8
-001I9000004Vt5dIAC,Canadian Heritage,Patrimoine canadien,GC Department,ed374cb8-4c01-41d1-9abf-315806824224
-001I9000004Vt5eIAC,Canadian Human Rights Commission,Commission canadienne des droits de la personne,GC Department,80d45c47-9943-431c-b15b-f9e3a3c776fd
-001I900000503mHIAQ,Canadian Institutes of Health Research,Instituts de recherche en santé du Canada,GC Department,
-001I90000050aK9IAI,Canadian Intellectual Property Office,Office de la propriété intellectuelle du Canada,GC Department,86b7810d-78af-47e3-ab01-d655c43bd449
-001OO00000IclDKYAZ,Canadian Intergovernmental Conference Secretariat,Secrétariat des conférences intergouvernementales canadiennes,GC Department,
-001I9000005SgSOIA0,Canadian International Trade Tribunal,Tribunal canadien du commerce extérieur,GC Department,
-001I900000504boIAA,Canadian Museum for Human Rights,Musée canadien pour les droits de la personne,Crown Corp,
-001I90000050662IAA,Canadian Museum of History,Musée canadien de l'histoire,Crown Corp,
-001I9000005066MIAQ,Canadian Museum of Immigration at Pier 21,Musée canadien de l’immigration du Quai 21,Crown Corp,
-001I900000505NBIAY,Canadian Museum of Nature,Musée canadien de la nature,Crown Corp,
-001I9000004Vt5fIAC,Canadian Northern Economic Development Agency,Agence canadienne de développement économique du Nord,GC Department,
-001I9000004Vt5gIAC,Canadian Nuclear Safety Commission,Commission canadienne de sûreté nucléaire,GC Department,2e5ee51e-993b-418c-ba36-cf487ecd1e27
-001I9000004Vt5hIAC,Canadian Radio-television and Telecommunications Commission,Conseil de la radiodiffusion et des télécommunications canadiennes,GC Department,
-001I90000050a3fIAA,Canadian Security Intelligence Service,Service canadien du renseignement de sécurité,GC Department,
-001I9000004Vt5iIAC,Canadian Space Agency,Agence spatiale canadienne,GC Department,c9e21254-8d93-4168-b55a-9d1b130eb00d
-001I900000503r9IAA,Canadian Transportation Agency,Office des transports du Canada,GC Department,c5f5aee8-b508-47ad-9e77-7227f0a254a7
-001OO000006vJNYYA2,Civilian Review and Complaints Commission for the RCMP,Commission civile d’examen et de traitement des plaintes relatives à la Gendarmerie royale du Canada,GC Department,
-001I9000004zLveIAE,Communications Security Establishment Canada,Centre de la sécurité des télécommunications Canada,GC Department,1572a41d-0373-43a8-a0fe-32e7f6c44e04
-001I900000503tPIAQ,Copyright Board Canada,Commission du droit d'auteur du Canada,GC Department,
-001I900000503m9IAA,Correctional Service Canada,Service correctionnel Canada,GC Department,f8ff9966-68e3-436b-aaf1-a6b3ca924607
-001I9000004Vt5kIAC,Courts Administration Service,Service administratif des tribunaux judiciaires,GC Department,
-001I9000004Vt5xIAC,Crown-Indigenous Relations and Northern Affairs Canada,Relations Couronne-Autochtones et Affaires du Nord Canada,GC Department,78e40414-165e-4d7c-804b-6163cdfcefaa
-001I9000005Ho3zIAC,Department not listed,Ministère n’est pas répertorié,GC Department,
-001I9000004Vt5lIAC,Department of Finance Canada,Ministère des Finances Canada,GC Department,
-001I9000004Vt5mIAC,Department of Justice Canada,Ministère de la Justice Canada,GC Department,722a631f-bcfd-484c-9243-8c3e715f6334
-001I9000004Vt5nIAC,Elections Canada,Élections Canada,GC Department,ba7a98ee-f508-4263-978c-7c228cf48e4d
-001I9000004Vt5oIAC,Employment and Social Development Canada,Emploi et Développement social Canada,GC Department,5370de8a-a876-4ef0-ab3a-9436891f36b5
-001I9000004Vt5pIAC,Environment and Climate Change Canada,Environnement et Changement climatique Canada,GC Department,f4602a8b-1cde-425c-9bd8-16cbc8ac6aae
-001I900000503nDIAQ,Export Development Canada,Exportation et développement Canada,Crown Corp,
+001I9000005064zIAA,Canadian Dairy Commission,Commission canadienne du lait,Crown Corp,,cdc-ccl.gc.ca
+001I9000004Vt5bIAC,Canadian Food Inspection Agency,Agence canadienne d'inspection des aliments,GC Department,37a89a3a-f516-496a-95e4-edfdcfc13732,inspection.gc.ca
+001I9000004Vt5cIAC,Canadian Grain Commission,Commission canadienne des grains,GC Department,74e2b999-650e-453c-88b1-8f57d22c84a8,grainscanada.gc.ca
+001I9000004Vt5dIAC,Canadian Heritage,Patrimoine canadien,GC Department,ed374cb8-4c01-41d1-9abf-315806824224,pch.gc.ca
+001I9000004Vt5eIAC,Canadian Human Rights Commission,Commission canadienne des droits de la personne,GC Department,80d45c47-9943-431c-b15b-f9e3a3c776fd,chrc-ccdp.gc.ca
+001I900000503mHIAQ,Canadian Institutes of Health Research,Instituts de recherche en santé du Canada,GC Department,,cihr-irsc.gc.ca
+001I90000050aK9IAI,Canadian Intellectual Property Office,Office de la propriété intellectuelle du Canada,GC Department,86b7810d-78af-47e3-ab01-d655c43bd449,
+001OO00000IclDKYAZ,Canadian Intergovernmental Conference Secretariat,Secrétariat des conférences intergouvernementales canadiennes,GC Department,,scics.ca
+001I9000005SgSOIA0,Canadian International Trade Tribunal,Tribunal canadien du commerce extérieur,GC Department,,tribunal.gc.ca
+001I900000504boIAA,Canadian Museum for Human Rights,Musée canadien pour les droits de la personne,Crown Corp,,museumforhumanrights.ca
+001I90000050662IAA,Canadian Museum of History,Musée canadien de l'histoire,Crown Corp,,museedelhistoire.ca
+001I9000005066MIAQ,Canadian Museum of Immigration at Pier 21,Musée canadien de l’immigration du Quai 21,Crown Corp,,pier21.ca
+001I900000505NBIAY,Canadian Museum of Nature,Musée canadien de la nature,Crown Corp,,nature.ca
+001I9000004Vt5fIAC,Canadian Northern Economic Development Agency,Agence canadienne de développement économique du Nord,GC Department,,cannor.gc.ca
+001I9000004Vt5gIAC,Canadian Nuclear Safety Commission,Commission canadienne de sûreté nucléaire,GC Department,2e5ee51e-993b-418c-ba36-cf487ecd1e27,cnsc-ccsn.gc.ca
+001I9000004Vt5hIAC,Canadian Radio-television and Telecommunications Commission,Conseil de la radiodiffusion et des télécommunications canadiennes,GC Department,,crtc.gc.ca
+001I90000050a3fIAA,Canadian Security Intelligence Service,Service canadien du renseignement de sécurité,GC Department,smtp.gc.ca
+001I9000004Vt5iIAC,Canadian Space Agency,Agence spatiale canadienne,GC Department,c9e21254-8d93-4168-b55a-9d1b130eb00d,asc-csa.gc.ca
+001I900000503r9IAA,Canadian Transportation Agency,Office des transports du Canada,GC Department,c5f5aee8-b508-47ad-9e77-7227f0a254a7,otc-cta.gc.ca
+001OO000006vJNYYA2,Civilian Review and Complaints Commission for the RCMP,Commission civile d’examen et de traitement des plaintes relatives à la Gendarmerie royale du Canada,GC Department,,crcc-ccetp.gc.ca
+001I9000004zLveIAE,Communications Security Establishment Canada,Centre de la sécurité des télécommunications Canada,GC Department,1572a41d-0373-43a8-a0fe-32e7f6c44e04,CSE-CST.GC.CA
+001I900000503tPIAQ,Copyright Board Canada,Commission du droit d'auteur du Canada,GC Department,,cb-cda.gc.ca
+001I900000503m9IAA,Correctional Service Canada,Service correctionnel Canada,GC Department,f8ff9966-68e3-436b-aaf1-a6b3ca924607,csc-scc.gc.ca
+001I9000004Vt5kIAC,Courts Administration Service,Service administratif des tribunaux judiciaires,GC Department,,cas-satj.gc.ca
+001I9000004Vt5xIAC,Crown-Indigenous Relations and Northern Affairs Canada,Relations Couronne-Autochtones et Affaires du Nord Canada,GC Department,78e40414-165e-4d7c-804b-6163cdfcefaa,rcaanc-cirnac.gc.ca
+001I9000005Ho3zIAC,Department not listed,Ministère n’est pas répertorié,GC Department,,
+001I9000004Vt5lIAC,Department of Finance Canada,Ministère des Finances Canada,GC Department,,fin.gc.ca
+001I9000004Vt5mIAC,Department of Justice Canada,Ministère de la Justice Canada,GC Department,722a631f-bcfd-484c-9243-8c3e715f6334,justice.gc.ca
+001I9000004Vt5nIAC,Elections Canada,Élections Canada,GC Department,ba7a98ee-f508-4263-978c-7c228cf48e4d,elections.ca
+001I9000004Vt5oIAC,Employment and Social Development Canada,Emploi et Développement social Canada,GC Department,5370de8a-a876-4ef0-ab3a-9436891f36b5,hrsdc-rhdcc.gc.ca
+001I9000004Vt5pIAC,Environment and Climate Change Canada,Environnement et Changement climatique Canada,GC Department,f4602a8b-1cde-425c-9bd8-16cbc8ac6aae,ec.gc.ca
+001I900000503nDIAQ,Export Development Canada,Exportation et développement Canada,Crown Corp,,edc.ca
 001I900000505P7IAI,Farm Credit Canada,Financement agricole Canada,Crown Corp,
 001OO00000II3I2YAL,Federal Economic Development Agency for Northern Ontario,Agence fédérale de développement économique pour le Nord de l’Ontario,GC Department,
 001I90000050b0nIAA,Federal Economic Development Agency for Southern Ontario,Agence fédérale de développement économique pour le Sud de l'Ontario,GC Department,
