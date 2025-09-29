@@ -13,7 +13,7 @@ ID,English/Anglais,French/Français,Type,Notify_Organisation_ID,Email_Domain
 001I900000505hvIAA,Canada Post,Postes Canada,Crown Corp,,canadapost-postescanada.ca
 001I9000004Vt5ZIAS,Canada Revenue Agency,Agence du revenu du Canada,GC Department,130baa74-2f4a-4f8e-9fd7-6b94daf1b8f1,cra-arc.gc.ca
 001I9000004Vt5aIAC,Canada School of Public Service,École de la fonction publique du Canada,GC Department,ff731c50-3691-4fae-8a4d-8f72be4181cd,csps-efpc.gc.ca
-001I9000005064uIAA,Canada Science and Technology Museum,Musée des sciences et de la technologie du Canada,Crown Corp,,ingeniumcanada.org
+001I9000005064uIAA,Canada Science and Technology Museum,Musée des sciences et de la technologie du Canada,Crown Corp,,
 001I90000050b2KIAQ,Canadian Air Transport Security Authority,L’Administration canadienne de la sûreté du transport aérien,Crown Corp,,catsa-acsta.gc.ca
 001I900000503ncIAA,Canadian Centre for Occupational Health and Safety,Centre canadien d'hygiène et de sécurité au travail,GC Department,,ccohs.ca
 001I9000005064zIAA,Canadian Dairy Commission,Commission canadienne du lait,Crown Corp,,cdc-ccl.gc.ca
@@ -78,54 +78,54 @@ ID,English/Anglais,French/Français,Type,Notify_Organisation_ID,Email_Domain
 001I9000004Vt5zIAC,"Innovation, Science and Economic Development Canada","Innovation, Sciences et Développement économique Canada",GC Department,33503c98-2fa9-4ee8-91b0-12b68a26dcc1,ised-isde.gc.ca
 001OO00000Sl2T1YAJ,Invest in Canada,Investir au Canada,GC Department,340e3e43-55ad-4cae-949d-5edb5eeadda2,invcanada.ca
 001I9000004Vt60IAC,Library and Archives Canada,Bibliothèque et Archives Canada,GC Department,220f022c-ce53-4c2f-b941-401e78ce8bcf,bac-lac.gc.ca
-001I9000005PIWlIAO,Military Grievances External Review Committee,Comité externe d’examen des griefs militaires,GC Department,00aaac61-cafd-4edd-9bcc-bea78342d92d
-001OO00000K0yNHYAZ,Military Police Complaints Commission of Canada,Commission d'examen des plaintes concernant la police militaire du Canada,GC Department,
-001I9000004Vt61IAC,National Defence,Défense nationale et les Forces armées canadiennes,GC Department,ae2e30e5-59fa-4e30-9af6-87d0cff6a909
-001I900000503gTIAQ,National Film Board,L'office National Du Film Du Canada,GC Department,
-001OO00000Gg4J0YAJ,National Museum of Science and Technology (Ingenium),Musée national des sciences et de la technologie (Ingenium),Crown Corp,
-001I9000004Vt62IAC,National Research Council Canada,Conseil national de recherches Canada,GC Department,1fd678e1-2664-415f-a67b-d7986c578d39
-001OO00000GgHJNYA3,National Security and Intelligence Review Agency,Office de surveillance des activités en matière de sécurité nationale et de renseignement,GC Department,
-001I9000004Vt63IAC,Natural Resources Canada,Ressources naturelles Canada,GC Department,e51e94b9-1146-4636-b4ca-cc39bd18615a
-001I9000004Vt64IAC,Natural Sciences and Engineering Research Council of Canada,Conseil de recherches en sciences naturelles et en génie du Canada,GC Department,5a4093a5-ada9-4943-8263-972418eb4945
-001I900000503zhIAA,Office of the Auditor General of Canada,Le Bureau du vérificateur général du Canada,GC Department,354a8ef4-4ea2-4365-a992-b001cb5b4945
-001I900000503tVIAQ,Office of the Chief Electoral Officer,Bureau du directeur général des élections,GC Department,
-001I9000004Vt65IAC,Office of the Commissioner of Lobbying of Canada,Commissariat au lobbying du Canada,GC Department,5f2e6748-3ef4-49b1-a9b3-3db9372ac831
-001I9000004Vt66IAC,Office of the Commissioner of Official Languages,Commissariat aux langues officielles,GC Department,
-001OO00000GgH3GYAV,Office of the Intelligence Commissioner,Bureau du commissaire au renseignement,GC Department,
-001OO00000HzMoJYAV,Office of the Public Sector Integrity Commissioner of Canada,Commissariat à l'intégrité du secteur public du Canada,GC Department,
-001OO00000AhiwAYAR,Office of the Secretary to the Governor General,Bureau du secrétaire du gouverneur général,GC Department,
-001I9000005DXSKIA4,Office of the Superintendent of Financial Institutions,Bureau du surintendant des institutions financières,GC Department,
-001OO00000Ct4gqYAB,Office of the Taxpayers' Ombudsperson,Bureau de l'ombudsman des contribuables,Other,
-001I900000504b0IAA,Offices of the Information and Privacy Commissioners of Canada,Les Commissariats à l’information et à la protection de la vie privée du Canada,GC Department,
-001I90000050ZenIAE,Pacific Economic Development Canada,Développement économique Canada pour le Pacifique,GC Department,c5214275-99a4-468d-a5bd-a88f548c2a60
-001I90000050XWsIAM,Pacific Pilotage Authority Canada,Administration de pilotage du Pacifique Canada,Crown Corp,
-001I9000004Vt67IAC,Parks Canada,Parcs Canada,GC Department,be21200e-4eaf-4e90-9aca-00b1b84e7143
-001I9000005DbCwIAK,Parliament of Canada,Parlement du Canada,GC Department,
-001I900000504ZTIAY,Parole Board of Canada,Commission des libérations conditionnelles du Canada,GC Department,
-001OO000006vSnJYAU,Patented Medicine Prices Review Board Canada,Conseil d'examen du prix des médicaments brevetés,GC Department,
-001I9000005X2mZIAS,Polar Knowledge Canada,Savoir polaire Canada,GC Department,
-001I9000004Vt68IAC,Prairies Economic Development Canada,Développement économique Canada pour les Prairies,GC Department,92f47188-8588-46ea-be47-a75c793c3f21
-001I9000004Vt69IAC,Privy Council Office,Bureau du Conseil privé,GC Department,8427108d-bb8f-443d-817b-6bba8bb2fa04
-001I9000004Vt6AIAS,Public Health Agency of Canada,Agence de la santé publique du Canada,GC Department,6d5f3682-54ff-4aba-8405-96e71de45bb1
-001I9000004Vt6BIAS,Public Prosecution Service of Canada,Service des poursuites pénales du Canada,GC Department,
-001I9000004Vt6CIAS,Public Safety Canada,Sécurité publique Canada,GC Department,bf791b97-e34c-4bc9-b571-63cc00a17fca
-001I9000004Vt6DIAS,Public Service Commission of Canada,Commission de la fonction publique du Canada,GC Department,3357a618-cf88-4ec7-8058-e2ddacf49e07
-001I9000004Vt6EIAS,Public Services and Procurement Canada,Services publics et Approvisionnement Canada,GC Department,d8509d9d-44a8-40bc-91d3-60417a636a38
-001I9000004Vt6FIAS,Royal Canadian Mint,Monnaie royale canadienne,GC Department,
-001I9000004Vt6GIAS,Royal Canadian Mounted Police,Gendarmerie royale du Canada,GC Department,6022df15-563b-4ceb-b1e2-33ad17136286
-001OO00000Gg8ZWYAZ,Secretariat of the National Security and Intelligence Committee of Parliamentarians,Secrétariat du Comité des parlementaires sur la sécurité nationale et le renseignement,GC Department,
-001I90000050aMNIAY,Service Canada,Service Canada,GC Department,23462a82-9c9c-402c-b99b-27179e9d35d8
-001I9000004Vt6HIAS,Shared Services Canada,Services partagés Canada,GC Department,b2ba3091-4e76-4190-9ac5-e3b2cfa6e0e4
-001I900000503tgIAA,Social Sciences and Humanities Research Council,Conseil de recherches en sciences humaines,GC Department,
-001I90000057LCEIA2,Social Security Tribunal of Canada,Tribunal de la sécurité sociale du Canada,GC Department,
-001I90000050b2ZIAQ,Standards Council of Canada,Conseil canadien des normes,Crown Corp,
-001I9000004Vt6IIAS,Statistics Canada,Statistique Canada,GC Department,27a987ff-b754-4efc-8dfe-b79d62b622f5
-001OO00000HzZtYYAV,The Correctional Investigator Canada,L'Enquêteur correctionnel Canada,GC Department,
-001I9000005X2DjIAK,The National Battlefields Commission,Commission des champs de bataille nationaux,GC Department,
-001I9000004Vt6JIAS,Transport Canada,Transports Canada,GC Department,3371f506-4f80-42df-a741-1a3c93d186fb
-001I90000050YtsIAE,Transportation Safety Board of Canada,Bureau de la sécurité des transports du Canada,GC Department,
-001I9000004Vt6KIAS,Treasury Board of Canada Secretariat,Secrétariat du Conseil du Trésor du Canada,GC Department,25237e37-3457-4d0c-9d8e-82f3b8e6bc0a
-001I9000004Vt6LIAS,Veterans Affairs Canada,Anciens combattants Canada,GC Department,dcd62816-abee-4867-88d4-bee61253785b
-001I900000505KfIAI,Veterans Review and Appeal Board,Tribunal des anciens combattants révision et appel,GC Department,
-001I90000050aLyIAI,VIA Rail Canada,VIA Rail Canada,Crown Corp,
-001I9000004zOAzIAM,Women and Gender Equality Canada,Femmes et Égalité des genres Canada,GC Department,efae94cf-1763-43a7-8ac3-f82cfa662f78
+001I9000005PIWlIAO,Military Grievances External Review Committee,Comité externe d’examen des griefs militaires,GC Department,00aaac61-cafd-4edd-9bcc-bea78342d92d,mgerc-ceegm.gc.ca
+001OO00000K0yNHYAZ,Military Police Complaints Commission of Canada,Commission d'examen des plaintes concernant la police militaire du Canada,GC Department,,mpcc-cppm.gc.ca
+001I9000004Vt61IAC,National Defence,Défense nationale et les Forces armées canadiennes,GC Department,ae2e30e5-59fa-4e30-9af6-87d0cff6a909,forces.gc.ca
+001I900000503gTIAQ,National Film Board,L'office National Du Film Du Canada,GC Department,,nfb.ca
+001OO00000Gg4J0YAJ,National Museum of Science and Technology (Ingenium),Musée national des sciences et de la technologie (Ingenium),Crown Corp,,ingeniumcanada.org
+001I9000004Vt62IAC,National Research Council Canada,Conseil national de recherches Canada,GC Department,1fd678e1-2664-415f-a67b-d7986c578d39,nrc-cnrc.gc.ca
+001OO00000GgHJNYA3,National Security and Intelligence Review Agency,Office de surveillance des activités en matière de sécurité nationale et de renseignement,GC Department,,nsira-ossnr.gc.ca
+001I9000004Vt63IAC,Natural Resources Canada,Ressources naturelles Canada,GC Department,e51e94b9-1146-4636-b4ca-cc39bd18615a,nrcan-rncan.gc.ca
+001I9000004Vt64IAC,Natural Sciences and Engineering Research Council of Canada,Conseil de recherches en sciences naturelles et en génie du Canada,GC Department,5a4093a5-ada9-4943-8263-972418eb4945,nserc-crsng.gc.ca
+001I900000503zhIAA,Office of the Auditor General of Canada,Le Bureau du vérificateur général du Canada,GC Department,354a8ef4-4ea2-4365-a992-b001cb5b4945,oag-bvg.gc.ca
+001I900000503tVIAQ,Office of the Chief Electoral Officer,Bureau du directeur général des élections,GC Department,,cef-cce.gc.ca
+001I9000004Vt65IAC,Office of the Commissioner of Lobbying of Canada,Commissariat au lobbying du Canada,GC Department,5f2e6748-3ef4-49b1-a9b3-3db9372ac831,lobbycanada.gc.ca
+001I9000004Vt66IAC,Office of the Commissioner of Official Languages,Commissariat aux langues officielles,GC Department,,ocol-clo.gc.ca
+001OO00000GgH3GYAV,Office of the Intelligence Commissioner,Bureau du commissaire au renseignement,GC Department,,ico-bcr.gc.ca
+001OO00000HzMoJYAV,Office of the Public Sector Integrity Commissioner of Canada,Commissariat à l'intégrité du secteur public du Canada,GC Department,,psic-ispc.gc.ca
+001OO00000AhiwAYAR,Office of the Secretary to the Governor General,Bureau du secrétaire du gouverneur général,GC Department,,
+001I9000005DXSKIA4,Office of the Superintendent of Financial Institutions,Bureau du surintendant des institutions financières,GC Department,,osfi-bsif.gc.ca
+001OO00000Ct4gqYAB,Office of the Taxpayers' Ombudsperson,Bureau de l'ombudsman des contribuables,Other,,
+001I900000504b0IAA,Offices of the Information and Privacy Commissioners of Canada,Les Commissariats à l’information et à la protection de la vie privée du Canada,GC Department,,priv.gc.ca
+001I90000050ZenIAE,Pacific Economic Development Canada,Développement économique Canada pour le Pacifique,GC Department,c5214275-99a4-468d-a5bd-a88f548c2a60,pacifican.gc.ca
+001I90000050XWsIAM,Pacific Pilotage Authority Canada,Administration de pilotage du Pacifique Canada,Crown Corp,,ppa.gc.ca
+001I9000004Vt67IAC,Parks Canada,Parcs Canada,GC Department,be21200e-4eaf-4e90-9aca-00b1b84e7143,pc.gc.ca
+001I9000005DbCwIAK,Parliament of Canada,Parlement du Canada,GC Department,,
+001I900000504ZTIAY,Parole Board of Canada,Commission des libérations conditionnelles du Canada,GC Department,,pbc-clcc.gc.ca
+001OO000006vSnJYAU,Patented Medicine Prices Review Board Canada,Conseil d'examen du prix des médicaments brevetés,GC Department,,pmprb-cepmb.gc.ca
+001I9000005X2mZIAS,Polar Knowledge Canada,Savoir polaire Canada,GC Department,,polar-polaire.gc.ca
+001I9000004Vt68IAC,Prairies Economic Development Canada,Développement économique Canada pour les Prairies,GC Department,92f47188-8588-46ea-be47-a75c793c3f21,prairiescan.gc.ca
+001I9000004Vt69IAC,Privy Council Office,Bureau du Conseil privé,GC Department,8427108d-bb8f-443d-817b-6bba8bb2fa04,pco-bcp.gc.ca
+001I9000004Vt6AIAS,Public Health Agency of Canada,Agence de la santé publique du Canada,GC Department,6d5f3682-54ff-4aba-8405-96e71de45bb1,
+001I9000004Vt6BIAS,Public Prosecution Service of Canada,Service des poursuites pénales du Canada,GC Department,,ppsc-sppc.gc.ca
+001I9000004Vt6CIAS,Public Safety Canada,Sécurité publique Canada,GC Department,bf791b97-e34c-4bc9-b571-63cc00a17fca,ps-sp.gc.ca
+001I9000004Vt6DIAS,Public Service Commission of Canada,Commission de la fonction publique du Canada,GC Department,3357a618-cf88-4ec7-8058-e2ddacf49e07,cfp-psc.gc.ca
+001I9000004Vt6EIAS,Public Services and Procurement Canada,Services publics et Approvisionnement Canada,GC Department,d8509d9d-44a8-40bc-91d3-60417a636a38,tpsgc-pwgsc.gc.ca
+001I9000004Vt6FIAS,Royal Canadian Mint,Monnaie royale canadienne,GC Department,,mint.ca
+001I9000004Vt6GIAS,Royal Canadian Mounted Police,Gendarmerie royale du Canada,GC Department,6022df15-563b-4ceb-b1e2-33ad17136286,rcmp-grc.gc.ca
+001OO00000Gg8ZWYAZ,Secretariat of the National Security and Intelligence Committee of Parliamentarians,Secrétariat du Comité des parlementaires sur la sécurité nationale et le renseignement,GC Department,,nsicop-cpsnr.gc.ca
+001I90000050aMNIAY,Service Canada,Service Canada,GC Department,23462a82-9c9c-402c-b99b-27179e9d35d8,servicecanada.ca
+001I9000004Vt6HIAS,Shared Services Canada,Services partagés Canada,GC Department,b2ba3091-4e76-4190-9ac5-e3b2cfa6e0e4,ssc-spc.gc.ca
+001I900000503tgIAA,Social Sciences and Humanities Research Council,Conseil de recherches en sciences humaines,GC Department,,sshrc-crsh.gc.ca
+001I90000057LCEIA2,Social Security Tribunal of Canada,Tribunal de la sécurité sociale du Canada,GC Department,,
+001I90000050b2ZIAQ,Standards Council of Canada,Conseil canadien des normes,Crown Corp,,scc.ca
+001I9000004Vt6IIAS,Statistics Canada,Statistique Canada,GC Department,27a987ff-b754-4efc-8dfe-b79d62b622f5,statcan.gc.ca
+001OO00000HzZtYYAV,The Correctional Investigator Canada,L'Enquêteur correctionnel Canada,GC Department,,oci-bec.gc.ca
+001I9000005X2DjIAK,The National Battlefields Commission,Commission des champs de bataille nationaux,GC Department,,ccbn-nbc.gc.ca
+001I9000004Vt6JIAS,Transport Canada,Transports Canada,GC Department,3371f506-4f80-42df-a741-1a3c93d186fb,tc.gc.ca
+001I90000050YtsIAE,Transportation Safety Board of Canada,Bureau de la sécurité des transports du Canada,GC Department,,bst-tsb.gc.ca
+001I9000004Vt6KIAS,Treasury Board of Canada Secretariat,Secrétariat du Conseil du Trésor du Canada,GC Department,25237e37-3457-4d0c-9d8e-82f3b8e6bc0a,tbs-sct.gc.ca
+001I9000004Vt6LIAS,Veterans Affairs Canada,Anciens combattants Canada,GC Department,dcd62816-abee-4867-88d4-bee61253785b,veterans.gc.ca
+001I900000505KfIAI,Veterans Review and Appeal Board,Tribunal des anciens combattants révision et appel,GC Department,,vrab-tacra.gc.ca
+001I90000050aLyIAI,VIA Rail Canada,VIA Rail Canada,Crown Corp,,viarail.ca
+001I9000004zOAzIAM,Women and Gender Equality Canada,Femmes et Égalité des genres Canada,GC Department,efae94cf-1763-43a7-8ac3-f82cfa662f78,fegc-wage.gc.ca
