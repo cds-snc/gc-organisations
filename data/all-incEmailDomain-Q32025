@@ -48,36 +48,36 @@ ID,English/Anglais,French/Français,Type,Notify_Organisation_ID,Email_Domain
 001I9000004Vt5oIAC,Employment and Social Development Canada,Emploi et Développement social Canada,GC Department,5370de8a-a876-4ef0-ab3a-9436891f36b5,hrsdc-rhdcc.gc.ca
 001I9000004Vt5pIAC,Environment and Climate Change Canada,Environnement et Changement climatique Canada,GC Department,f4602a8b-1cde-425c-9bd8-16cbc8ac6aae,ec.gc.ca
 001I900000503nDIAQ,Export Development Canada,Exportation et développement Canada,Crown Corp,,edc.ca
-001I900000505P7IAI,Farm Credit Canada,Financement agricole Canada,Crown Corp,
-001OO00000II3I2YAL,Federal Economic Development Agency for Northern Ontario,Agence fédérale de développement économique pour le Nord de l’Ontario,GC Department,
-001I90000050b0nIAA,Federal Economic Development Agency for Southern Ontario,Agence fédérale de développement économique pour le Sud de l'Ontario,GC Department,
-001I900000503tyIAA,Financial Consumer Agency of Canada,Agence de la consommation en matière financière du Canada,GC Department,
-001I9000004Vt5rIAC,Financial Transactions and Reports Analysis Centre of Canada,Centre d'analyse des opérations et déclarations financières du Canada,GC Department,04fd35a1-7e6d-4ba9-8d27-ab0c87446ec4
-001I9000004Vt5sIAC,Fisheries and Oceans Canada,Pêches et Océans Canada,GC Department,4983c8da-fe3d-488a-a974-0c5c442f33a5
-001I9000004Vt5tIAC,Global Affairs Canada,Affaires mondiales Canada,GC Department,155a85be-1d5f-4189-abad-09f4f3744112
-001I9000004VrQNIA0,Government of Alberta,Gouvernement de l'alberta,PTM,fbcd0568-0481-48c6-8884-9bd8f40ecadf
-001I9000004cImXIAU,Government of British Columbia (BC),Gouvernement de la Colombie-Britannique,PTM,e12c6a14-c458-4203-910b-b8cc47a95b09
-001I90000050e4sIAA,Government of Manitoba,Gouvernement du Manitoba,PTM,
-001I90000050e4dIAA,Government of New Brunswick,Gouvernement du Nouveau-Brunswick,PTM,5ef913fb-7abb-488a-8c2e-001a2228824f
-001I90000050dxBIAQ,Government of Newfoundland and Labrador,Gouvernement de Terre-Neuve-et-Labrador,PTM,
-001I90000050e4xIAA,Government of Northwest Territories,Gouvernement des Territoires du Nord-Ouest,PTM,
-001I9000004VzBNIA0,Government of Nova Scotia,Gouvernement de la Nouvelle-Écosse,PTM,a4297403-29a5-400e-8be2-3689ed557937
-001I90000050e2EIAQ,Government of Nunavut,Gouvernement du Nunavut,PTM,
-001I90000050e3NIAQ,Government of Ontario,Gouvernement de l’Ontario,PTM,c4be8612-85c3-454b-ace1-309352220cf5
-001I9000004yum3IAA,Government of Prince Edward Island,Gouvernement de l'Île-du-Prince-Édouard,PTM,
-001I9000004yvYcIAI,Government of Quebec,Gouvernement du Québec,PTM,
-001I90000050e5WIAQ,Government of Saskatchewan,Gouvernement de la Saskatchewan,PTM,
-001I90000050e2iIAA,Government of Yukon,Gouvernement du Yukon,PTM,
-001I9000004Vt5uIAC,Health Canada,Santé Canada,GC Department,311528bc-ff51-44f4-a268-2eaae8b99efd
-001I9000004Vt5yIAC,"Housing, Infrastructure and Communities Canada","Logement, Infrastructures et Collectivités Canada",GC Department,5f48482e-c4d0-41a1-9337-0f64d157573a
-001I9000004Vt5vIAC,Immigration and Refugee Board of Canada,Commission de l'immigration et du statut de réfugié du Canada,GC Department,
-001I9000004Vt5wIAC,"Immigration, Refugees and Citizenship Canada","Immigration, Réfugiés et Citoyenneté Canada",GC Department,91dad410-47f4-4ca8-b852-951899200926
-001I9000005DbFCIA0,Impact Assessment Agency of Canada,Agence d’évaluation d’impact du Canada,GC Department,
-001I900000504eXIAQ,Indigenous Services Canada,Services aux Autochtones Canada,GC Department,4cb53e9f-a612-4280-9e44-6015cd49c6c2
-001I9000005HqRoIAK,Indigenous Services Canada & Crown-Indigenous Relations and Northern Affairs Canada,Affaires autochtones et du Nord Canada,GC Department,
-001I9000004Vt5zIAC,"Innovation, Science and Economic Development Canada","Innovation, Sciences et Développement économique Canada",GC Department,33503c98-2fa9-4ee8-91b0-12b68a26dcc1
-001OO00000Sl2T1YAJ,Invest in Canada,Investir au Canada,GC Department,340e3e43-55ad-4cae-949d-5edb5eeadda2
-001I9000004Vt60IAC,Library and Archives Canada,Bibliothèque et Archives Canada,GC Department,220f022c-ce53-4c2f-b941-401e78ce8bcf
+001I900000505P7IAI,Farm Credit Canada,Financement agricole Canada,Crown Corp,,fcc-fac.ca
+001OO00000II3I2YAL,Federal Economic Development Agency for Northern Ontario,Agence fédérale de développement économique pour le Nord de l’Ontario,GC Department,,fednor.gc.ca
+001I90000050b0nIAA,Federal Economic Development Agency for Southern Ontario,Agence fédérale de développement économique pour le Sud de l'Ontario,GC Department,,feddevontario.gc.ca
+001I900000503tyIAA,Financial Consumer Agency of Canada,Agence de la consommation en matière financière du Canada,GC Department,,fcac-acfc.gc.ca
+001I9000004Vt5rIAC,Financial Transactions and Reports Analysis Centre of Canada,Centre d'analyse des opérations et déclarations financières du Canada,GC Department,04fd35a1-7e6d-4ba9-8d27-ab0c87446ec4,fintrac-canafe.gc.ca
+001I9000004Vt5sIAC,Fisheries and Oceans Canada,Pêches et Océans Canada,GC Department,4983c8da-fe3d-488a-a974-0c5c442f33a5,dfo-mpo.gc.ca
+001I9000004Vt5tIAC,Global Affairs Canada,Affaires mondiales Canada,GC Department,155a85be-1d5f-4189-abad-09f4f3744112,international.gc.ca
+001I9000004VrQNIA0,Government of Alberta,Gouvernement de l'alberta,PTM,fbcd0568-0481-48c6-8884-9bd8f40ecadf,alberta.ca
+001I9000004cImXIAU,Government of British Columbia (BC),Gouvernement de la Colombie-Britannique,PTM,e12c6a14-c458-4203-910b-b8cc47a95b09,bc.ca
+001I90000050e4sIAA,Government of Manitoba,Gouvernement du Manitoba,PTM,,Manitoba.ca
+001I90000050e4dIAA,Government of New Brunswick,Gouvernement du Nouveau-Brunswick,PTM,5ef913fb-7abb-488a-8c2e-001a2228824f,gnb.ca
+001I90000050dxBIAQ,Government of Newfoundland and Labrador,Gouvernement de Terre-Neuve-et-Labrador,PTM,,gov.nl.ca
+001I90000050e4xIAA,Government of Northwest Territories,Gouvernement des Territoires du Nord-Ouest,PTM,,
+001I9000004VzBNIA0,Government of Nova Scotia,Gouvernement de la Nouvelle-Écosse,PTM,a4297403-29a5-400e-8be2-3689ed557937,novascotia.ca
+001I90000050e2EIAQ,Government of Nunavut,Gouvernement du Nunavut,PTM,,
+001I90000050e3NIAQ,Government of Ontario,Gouvernement de l’Ontario,PTM,c4be8612-85c3-454b-ace1-309352220cf5,ontario.ca
+001I9000004yum3IAA,Government of Prince Edward Island,Gouvernement de l'Île-du-Prince-Édouard,PTM,,princeedwardisland.ca
+001I9000004yvYcIAI,Government of Quebec,Gouvernement du Québec,PTM,,quebec.ca
+001I90000050e5WIAQ,Government of Saskatchewan,Gouvernement de la Saskatchewan,PTM,,saskatchewan.ca
+001I90000050e2iIAA,Government of Yukon,Gouvernement du Yukon,PTM,,
+001I9000004Vt5uIAC,Health Canada,Santé Canada,GC Department,311528bc-ff51-44f4-a268-2eaae8b99efd,HC-SC.GC.CA
+001I9000004Vt5yIAC,"Housing, Infrastructure and Communities Canada","Logement, Infrastructures et Collectivités Canada",GC Department,5f48482e-c4d0-41a1-9337-0f64d157573a,infc.gc.ca
+001I9000004Vt5vIAC,Immigration and Refugee Board of Canada,Commission de l'immigration et du statut de réfugié du Canada,GC Department,,irb-cisr.gc.ca
+001I9000004Vt5wIAC,"Immigration, Refugees and Citizenship Canada","Immigration, Réfugiés et Citoyenneté Canada",GC Department,91dad410-47f4-4ca8-b852-951899200926,cic.gc.ca
+001I9000005DbFCIA0,Impact Assessment Agency of Canada,Agence d’évaluation d’impact du Canada,GC Department,,iaac-aeic.gc.ca
+001I900000504eXIAQ,Indigenous Services Canada,Services aux Autochtones Canada,GC Department,4cb53e9f-a612-4280-9e44-6015cd49c6c2,rcaanc-cirnac.gc.ca
+001I9000005HqRoIAK,Indigenous Services Canada & Crown-Indigenous Relations and Northern Affairs Canada,Affaires autochtones et du Nord Canada,GC Department,,
+001I9000004Vt5zIAC,"Innovation, Science and Economic Development Canada","Innovation, Sciences et Développement économique Canada",GC Department,33503c98-2fa9-4ee8-91b0-12b68a26dcc1,ised-isde.gc.ca
+001OO00000Sl2T1YAJ,Invest in Canada,Investir au Canada,GC Department,340e3e43-55ad-4cae-949d-5edb5eeadda2,invcanada.ca
+001I9000004Vt60IAC,Library and Archives Canada,Bibliothèque et Archives Canada,GC Department,220f022c-ce53-4c2f-b941-401e78ce8bcf,bac-lac.gc.ca
 001I9000005PIWlIAO,Military Grievances External Review Committee,Comité externe d’examen des griefs militaires,GC Department,00aaac61-cafd-4edd-9bcc-bea78342d92d
 001OO00000K0yNHYAZ,Military Police Complaints Commission of Canada,Commission d'examen des plaintes concernant la police militaire du Canada,GC Department,
 001I9000004Vt61IAC,National Defence,Défense nationale et les Forces armées canadiennes,GC Department,ae2e30e5-59fa-4e30-9af6-87d0cff6a909
