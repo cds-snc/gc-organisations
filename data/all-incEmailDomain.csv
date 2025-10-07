@@ -73,8 +73,8 @@ ID,English/Anglais,French/Français,Type,Notify_Organisation_ID,Email_Domain
 001I9000004Vt5vIAC,Immigration and Refugee Board of Canada,Commission de l'immigration et du statut de réfugié du Canada,GC Department,,irb-cisr.gc.ca
 001I9000004Vt5wIAC,"Immigration, Refugees and Citizenship Canada","Immigration, Réfugiés et Citoyenneté Canada",GC Department,91dad410-47f4-4ca8-b852-951899200926,cic.gc.ca
 001I9000005DbFCIA0,Impact Assessment Agency of Canada,Agence d’évaluation d’impact du Canada,GC Department,,iaac-aeic.gc.ca
-001I900000504eXIAQ,Indigenous Services Canada,Services aux Autochtones Canada,GC Department,4cb53e9f-a612-4280-9e44-6015cd49c6c2,rcaanc-cirnac.gc.ca
-001I9000005HqRoIAK,Indigenous Services Canada & Crown-Indigenous Relations and Northern Affairs Canada,Affaires autochtones et du Nord Canada,GC Department,,
+001I900000504eXIAQ,Indigenous Services Canada,Services aux Autochtones Canada,GC Department,4cb53e9f-a612-4280-9e44-6015cd49c6c2,sac-isc.gc.ca
+001I9000005HqRoIAK,Indigenous Services Canada & Crown-Indigenous Relations and Northern Affairs Canada,Affaires autochtones et du Nord Canada,GC Department,,rcaanc-cirnac.gc.ca
 001I9000004Vt5zIAC,"Innovation, Science and Economic Development Canada","Innovation, Sciences et Développement économique Canada",GC Department,33503c98-2fa9-4ee8-91b0-12b68a26dcc1,ised-isde.gc.ca
 001OO00000Sl2T1YAJ,Invest in Canada,Investir au Canada,GC Department,340e3e43-55ad-4cae-949d-5edb5eeadda2,invcanada.ca
 001I9000004Vt60IAC,Library and Archives Canada,Bibliothèque et Archives Canada,GC Department,220f022c-ce53-4c2f-b941-401e78ce8bcf,bac-lac.gc.ca
@@ -106,7 +106,7 @@ ID,English/Anglais,French/Français,Type,Notify_Organisation_ID,Email_Domain
 001I9000005X2mZIAS,Polar Knowledge Canada,Savoir polaire Canada,GC Department,,polar-polaire.gc.ca
 001I9000004Vt68IAC,Prairies Economic Development Canada,Développement économique Canada pour les Prairies,GC Department,92f47188-8588-46ea-be47-a75c793c3f21,prairiescan.gc.ca
 001I9000004Vt69IAC,Privy Council Office,Bureau du Conseil privé,GC Department,8427108d-bb8f-443d-817b-6bba8bb2fa04,pco-bcp.gc.ca
-001I9000004Vt6AIAS,Public Health Agency of Canada,Agence de la santé publique du Canada,GC Department,6d5f3682-54ff-4aba-8405-96e71de45bb1,
+001I9000004Vt6AIAS,Public Health Agency of Canada,Agence de la santé publique du Canada,GC Department,6d5f3682-54ff-4aba-8405-96e71de45bb1,phac-aspc.gc.ca
 001I9000004Vt6BIAS,Public Prosecution Service of Canada,Service des poursuites pénales du Canada,GC Department,,ppsc-sppc.gc.ca
 001I9000004Vt6CIAS,Public Safety Canada,Sécurité publique Canada,GC Department,bf791b97-e34c-4bc9-b571-63cc00a17fca,ps-sp.gc.ca
 001I9000004Vt6DIAS,Public Service Commission of Canada,Commission de la fonction publique du Canada,GC Department,3357a618-cf88-4ec7-8058-e2ddacf49e07,cfp-psc.gc.ca
