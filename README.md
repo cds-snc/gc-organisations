@@ -10,6 +10,3 @@ An exported list of Government of Canada departments, agencies, crown corporatio
 - [data/all.json](./data/all.json): English name, French names, and type
 - [data/all-name-eng.json](./data/all-name-eng.json): English name
 - [data/all-name-fra.json](./data/all-name-fra.json): French name
-
-## Setup
-Copy `.env.example` to `.env`, add values and run `make`.
